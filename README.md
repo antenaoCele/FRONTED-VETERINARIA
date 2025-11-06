@@ -11,7 +11,7 @@ fronted-veterinaria.vercel.app
 - React (con Hooks y componentes funcionales)
 - Axios para la comunicación con el backend
 - React Router para la navegación entre vistas
-- Tailwind CSS para estilos
+- Material MUI para estilos
 - Vite como herramienta de construcción
 
 ###  Backend
