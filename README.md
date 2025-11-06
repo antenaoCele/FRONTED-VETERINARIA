@@ -2,10 +2,10 @@
 
 Este proyecto es una aplicación web para la gestión de una veterinaria. Permite registrar clientes y sus mascotas, visualizar listados, editar información existente y eliminar registros. El frontend fue desarrollado con React, mientras que el backend utiliza Node.js, Express y MongoDB Atlas como base de datos.
 
-##  Tecnologías utilizadas
-
 ##  LINK DE VERCEL
 fronted-veterinaria.vercel.app
+
+##  Tecnologías utilizadas
 
 ###  Frontend
 - React (con Hooks y componentes funcionales)
