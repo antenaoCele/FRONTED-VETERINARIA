@@ -1,16 +1,82 @@
-# React + Vite
+#  Veterinaria - Gestión de Clientes y Mascotas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web para la gestión de una veterinaria. Permite registrar clientes y sus mascotas, visualizar listados, editar información existente y eliminar registros. El frontend fue desarrollado con React, mientras que el backend utiliza Node.js, Express y MongoDB Atlas como base de datos.
 
-Currently, two official plugins are available:
+##  Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###  Frontend
+- React (con Hooks y componentes funcionales)
+- Axios para la comunicación con el backend
+- React Router para la navegación entre vistas
+- Tailwind CSS para estilos
+- Vite como herramienta de construcción
 
-## React Compiler
+###  Backend
+- Node.js + Express para la API REST
+- MongoDB Atlas como base de datos en la nube
+- CORS habilitado para la conexión con el frontend
+- Desplegado en Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Funcionalidades principales
 
-## Expanding the ESLint configuration
+###  Clientes
+- Crear nuevos clientes
+- Editar o eliminar clientes existentes
+- Listar todos los clientes registrados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Mascotas
+- Registrar una mascota y asociarla a un cliente
+- Editar y eliminar mascotas
+- Ver el listado completo de mascotas
+
+###  Actualización en tiempo real
+- Los listados se actualizan automáticamente tras cada acción (crear, editar o eliminar)
+
+##  Instalación y ejecución local
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tu-usuario/veterinaria-frontend.git
+cd veterinaria-frontend
+```
+
+### 2. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3. Configurar variables de entorno
+
+Crea un archivo `.env` en la raíz del proyecto con la URL del backend:
+
+```env
+VITE_API_URL=https://tu-backend.vercel.app/api
+```
+
+### 4. Ejecutar la aplicación
+
+```bash
+npm run dev
+```
+
+La aplicación estará disponible en `http://localhost:5173`
+
+## 🌍 Despliegue
+
+- **Frontend**: Vercel
+- **Backend**: Vercel
+- **Base de datos**: MongoDB Atlas
+
+
+```
+
+##  Autor
+
+**Celeste Tatiana Antenao Fernández**
+
+💻 Proyecto realizado con fines educativos y de práctica en desarrollo full stack.
+
+---
+
