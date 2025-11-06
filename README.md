@@ -40,7 +40,7 @@ fronted-veterinaria.vercel.app
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/veterinaria-frontend.git
+git clone https://github.com/antenaoCele/FRONTED-VETERINARIA.git
 cd veterinaria-frontend
 ```
 
@@ -55,7 +55,7 @@ npm install
 Crea un archivo `.env` en la raíz del proyecto con la URL del backend:
 
 ```env
-VITE_API_URL=https://tu-backend.vercel.app/api
+VITE_API_URL=https://trabajo-integrador-veterinaria-bf31.vercel.app
 ```
 
 ### 4. Ejecutar la aplicación
@@ -64,7 +64,6 @@ VITE_API_URL=https://tu-backend.vercel.app/api
 npm run dev
 ```
 
-La aplicación estará disponible en `http://localhost:5173`
 
 ##  Despliegue
 
@@ -73,7 +72,7 @@ La aplicación estará disponible en `http://localhost:5173`
 - **Base de datos**: MongoDB Atlas
 
 
-```
+---
 
 ##  Autor
 
