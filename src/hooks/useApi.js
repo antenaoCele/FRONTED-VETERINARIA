@@ -1,7 +1,7 @@
 import { useCallback } from 'react';
 import axios from 'axios';
 
-const BASE_URL = 'https://trabajo-integrador-veterinaria-bf31.vercel.app';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://trabajo-integrador-veterinaria-bf31.vercel.app';
 
 export const useApi = () => {
     const get = useCallback(async (endpoint) => {
