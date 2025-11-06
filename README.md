@@ -4,6 +4,9 @@ Este proyecto es una aplicación web para la gestión de una veterinaria. Permit
 
 ##  Tecnologías utilizadas
 
+##  LINK DE VERCEL
+fronted-veterinaria.vercel.app
+
 ###  Frontend
 - React (con Hooks y componentes funcionales)
 - Axios para la comunicación con el backend
@@ -63,7 +66,7 @@ npm run dev
 
 La aplicación estará disponible en `http://localhost:5173`
 
-## 🌍 Despliegue
+##  Despliegue
 
 - **Frontend**: Vercel
 - **Backend**: Vercel
@@ -76,7 +79,7 @@ La aplicación estará disponible en `http://localhost:5173`
 
 **Celeste Tatiana Antenao Fernández**
 
-💻 Proyecto realizado con fines educativos y de práctica en desarrollo full stack.
+ Proyecto realizado con fines educativos y de práctica en desarrollo full stack.
 
 ---
 
